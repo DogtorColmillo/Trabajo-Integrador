@@ -1,3 +1,4 @@
+package src;
 public class Equipo {
    public String nombre;
    public String descripcion;

@@ -1,3 +1,4 @@
+package src;
 public class Pronostico {
    public Partido[] partido;
    public Equipo equipo;

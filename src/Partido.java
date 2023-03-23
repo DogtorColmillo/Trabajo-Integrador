@@ -1,3 +1,4 @@
+package src;
 public class Partido {
    public Equipo equipo1;
    public Equipo equipo2;

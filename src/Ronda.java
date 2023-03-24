@@ -13,17 +13,20 @@ public class Ronda {
       // Abre el archivo resultados.csv y obtiene todas las lineas
       // la cantidad de lineas es la cantidad de partidos
       // Segun el numero de partidos, genera el arreglo partidos y pasa la info de cada partido
-      cantidadPartidos = contarPartidos("csv\\resultados.csv");
+      cantidadPartidos = contarPartidos("src/csv/resultados.csv");
       partido = new Partido[cantidadPartidos];
+      int i = 0;
       try {
-         int i = 0;
-         for (String linea : Files.readAllLines(Paths.get("csv\\resultados.csv")))
+         for (String linea : Files.readAllLines(Paths.get("src/csv/resultados.csv")))
             if (!linea.trim().isEmpty()){
-               i++;
                partido[i]= new Partido(linea.split(";"));
+               i++;
             }
-         } catch (IOException e) {
-            System.err.println("Error al leer el archivo: " + e.getMessage());
+      } catch (IOException e) {
+         System.err.println("Error al leer el archivo: " + e.getMessage());
+      } catch (ArrayIndexOutOfBoundsException e) {
+         System.err.println("Error: " + e.getMessage());
+         System.err.println("i es: "+ i);
       }
    }
 

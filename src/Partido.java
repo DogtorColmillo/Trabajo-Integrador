@@ -6,10 +6,10 @@ public class Partido {
    public Equipo equipo2;
 
    public Partido(String [] datos){
-      equipo1 = new Equipo(datos[0],"");
-      golesEquipo1 = Integer.parseInt(datos[1]);
-      golesEquipo2 = Integer.parseInt(datos[2]);
-      equipo2 = new Equipo(datos[3],"");
+      equipo1 = new Equipo(datos[1],"");
+      golesEquipo1 = Integer.parseInt(datos[2]);
+      golesEquipo2 = Integer.parseInt(datos[3]);
+      equipo2 = new Equipo(datos[4],"");
    }
 
    public Resultado resultado(Equipo equipo){

@@ -23,3 +23,15 @@ Ronda 1: Argentina vs Arabia Saudita, Polonia vs Mexico.
 Ronda 2: Argentina vs Polonia, Arabia Saudita vs Mexico.
 Ronda 3: Argentina vs Mexico, Polonia vs Arabia Saudita.
 Es decir que para 4 equipos se juegan 6 partidos distribuidos de a 2 en 3 rondas.
+
+Entonces:
+- Una ronda tiene 1 o + partidos.
+   El constructor de la clase ronda carga el archivo de resultados.csv y a partir de eso crea el arreglo de partidos
+- Un partido tiene 2 equipos y un resultado.
+   El constructor de la clase partido necesita los dos equipos y las cantidades de goles de c/u.
+- Un equipo tiene un numbre y una descripcion.
+   El constructor de la clase equipo necesita nombre y descripcion. // no tiene un uso especifico
+- Una persona tiene 1 o + pronosticos.
+   El constructor de la clase persona carga el archivo de pronostico.csv y a partir de eso genera el arreglo de pronosticos
+- Un pronostico tiene 1 o + ronda-equipo-resultado.
+   El constructor de la clase pronostico necesita el nombre de la persona, el equipo y el resultado

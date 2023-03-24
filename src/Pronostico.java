@@ -20,7 +20,7 @@ public class Pronostico {
       try{
          for(String linea: Files.readAllLines(Paths.get("src/csv/pronostico.csv"))){
             String [] datos = linea.split(";");
-            if(nombrePersona.length()>0){
+            if(nombrePersona.length()<1){
                nombrePersona = datos[0];
             }
             equipo[i]=new Equipo(datos[1], "");

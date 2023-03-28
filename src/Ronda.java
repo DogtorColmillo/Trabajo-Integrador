@@ -33,18 +33,6 @@ public class Ronda {
    }
 
    public Resultado resultado(int partido, int equipo) {
-      if (equipo == 1){
-         if(this.partido[partido].golesEquipo1 > this.partido[partido].golesEquipo2){
-            return Resultado.ganador;
-         } else if(this.partido[partido].golesEquipo1 < this.partido[partido].golesEquipo2){
-            return Resultado.perdedor;
-         } else return Resultado.empate;
-      } else {
-         if(this.partido[partido].golesEquipo2 > this.partido[partido].golesEquipo1){
-            return Resultado.ganador;
-         } else if(this.partido[partido].golesEquipo2 < this.partido[partido].golesEquipo1){
-            return Resultado.perdedor;
-         } else return Resultado.empate;
-      }
+      return this.partido[partido].resultado(equipo);
    }
 }

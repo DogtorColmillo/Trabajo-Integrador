@@ -13,9 +13,9 @@ public class Partido {
       equipo2 = new Equipo(datos[3],"");
    }
 
-   public Resultado resultado(Equipo equipo){
+   public Resultado resultado(int equipo){
       //Compara los goles de cada equipo y devuelve para el equipo solicitado si es ganador, perdedor o empate.
-      if(equipo.nombre == equipo1.nombre)
+      if(equipo == 1)
          if (golesEquipo1 - golesEquipo2 > 0)
             return Resultado.ganador;
          else if (golesEquipo1 - golesEquipo2 < 0)

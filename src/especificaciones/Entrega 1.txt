@@ -14,7 +14,7 @@ Polonia;0;0;México
 
 Archivo: pronostico.csv
 Argentina;Gana;;;Arabia Saudita
-Polonia;;Empata;;México
+Polonia;;Empata;;Mexico
 
 
 Nota del desarrollador: Ronda es el número de partidos que juega un equipo para clasificar o pasar a la siguiente fase de un campeonato. Por ejemplo si participan 32 equipos y se forman 

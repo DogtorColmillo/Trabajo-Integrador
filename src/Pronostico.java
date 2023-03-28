@@ -7,24 +7,27 @@ import java.io.IOException;
 public class Pronostico {
    public String nombrePersona;
    public int cantidadPronosticos;
-   public Equipo[] equipo;
-   public Resultado[] resultado;
+   public Equipo[] equipo1;
+   public Equipo[] equipo2;
+   public Resultado[] resultado1;
+   public Resultado[] resultado2;
 
-   public Pronostico(){
-      nombrePersona = "";
-      cantidadPronosticos = misFunciones.contarPartidos("src/csv/resultados.csv");
-      equipo = new Equipo[cantidadPronosticos];
-      resultado = new Resultado[cantidadPronosticos];
+   public Pronostico(String archivoPronostico){
+      nombrePersona = "Pepe";
+      cantidadPronosticos = misFunciones.contarPartidos(archivoPronostico);
+      equipo1 = new Equipo[cantidadPronosticos];
+      equipo2 = new Equipo[cantidadPronosticos];
+      resultado1 = new Resultado[cantidadPronosticos];
+      resultado2 = new Resultado[cantidadPronosticos];
       int i = 0;
       //Abre el archivo pronostico.csv y leo las lineas
       try{
          for(String linea: Files.readAllLines(Paths.get("src/csv/pronostico.csv"))){
             String [] datos = linea.split(";");
-            if(nombrePersona.length()<1){
-               nombrePersona = datos[0];
-            }
-            equipo[i]=new Equipo(datos[1], "");
-            resultado[i] = Resultado.valueOf(datos[2]);
+            equipo1[i]=new Equipo(datos[0], "");
+            resultado1[i] = Resultado.valueOf(datos[1]);
+            resultado2[i] = Resultado.valueOf(datos[2]);
+            equipo2[i]=new Equipo(datos[3], "");
             i++;
          }
       } catch (IOException e){
@@ -32,8 +35,8 @@ public class Pronostico {
       }
    }
 
-   public int puntos(){
-      // Deberia comparar los pronosticos con los resultados, y por cada hacierto +1, y devolver el resultado
-      return 0;
+   public Resultado resultadoEquipo1(int pronostico){
+      return resultado1[pronostico];
    }
+
 }

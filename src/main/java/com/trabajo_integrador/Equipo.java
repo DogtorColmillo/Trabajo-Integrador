@@ -1,4 +1,4 @@
-package src;
+package com.trabajo_integrador;
 public class Equipo {
    public String nombre;
    public String descripcion;

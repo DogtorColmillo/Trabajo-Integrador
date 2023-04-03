@@ -1,8 +1,8 @@
-package src;
+package com.trabajo_integrador;
 class PronosticoDeportivo {
    public static void main(String[] args) {
-      Ronda ronda = new Ronda("src/csv/resultados.csv");
-      Pronostico pronostico = new Pronostico("src/csv/resultados.csv");
+      Ronda ronda = new Ronda("csv/resultados.csv");
+      Pronostico pronostico = new Pronostico("csv/pronostico.csv");
 
       /*System.out.println("Datos en ronda:");
       System.out.println("Cantidad de partidos: "+ronda.cantidadPartidos);
@@ -27,5 +27,8 @@ class PronosticoDeportivo {
       }
 
       System.out.println("El puntaje de "+pronostico.nombrePersona+" es "+puntos);
+
+      Word docWord = new Word();
+      docWord.crear("El puntaje de "+pronostico.nombrePersona+" es "+puntos);
    }
 }

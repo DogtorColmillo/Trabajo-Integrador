@@ -1,4 +1,4 @@
-package src;
+package com.trabajo_integrador;
 
 public enum Resultado {
    ganador,

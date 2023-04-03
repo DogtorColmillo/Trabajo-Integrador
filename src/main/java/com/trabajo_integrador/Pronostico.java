@@ -1,4 +1,4 @@
-package src;
+package com.trabajo_integrador;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -22,7 +22,7 @@ public class Pronostico {
       int i = 0;
       //Abre el archivo pronostico.csv y leo las lineas
       try{
-         for(String linea: Files.readAllLines(Paths.get("src/csv/pronostico.csv"))){
+         for(String linea: Files.readAllLines(Paths.get(archivoPronostico))){
             String [] datos = linea.split(";");
             equipo1[i]=new Equipo(datos[0], "");
             resultado1[i] = Resultado.valueOf(datos[1]);

@@ -1,4 +1,4 @@
-package src;
+package com.trabajo_integrador;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;

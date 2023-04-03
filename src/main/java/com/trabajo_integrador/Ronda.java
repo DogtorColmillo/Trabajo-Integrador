@@ -1,4 +1,4 @@
-package src;
+package com.trabajo_integrador;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -18,7 +18,7 @@ public class Ronda {
       partido = new Partido[cantidadPartidos];
       int i = 0;
       try {
-         for (String linea : Files.readAllLines(Paths.get("src/csv/resultados.csv")))
+         for (String linea : Files.readAllLines(Paths.get(archivoResultados)))
             if (!linea.trim().isEmpty()){
                partido[i]= new Partido(linea.split(";"));
                //Recibe de resultado algo como: partido[0]=["Argentina","2","1","Arabia Saudita"]

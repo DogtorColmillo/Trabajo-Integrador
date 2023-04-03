@@ -1,4 +1,4 @@
-package src;
+package com.trabajo_integrador;
 public class Partido {
    public Equipo equipo1;
    public int golesEquipo1;

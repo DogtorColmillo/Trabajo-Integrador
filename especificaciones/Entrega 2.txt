@@ -32,3 +32,4 @@ Notas del desarrollador:
 - Hace falta una clase interface que cargue los datos en las clases ronda[]->partido[], 
   que a futuro pueda ser modificada para que la fuente de datos no solo sea un archivo, sino tambien una BD.
 - Hace falta una clase interface que cargue los datos en las clases pronostico[]
+- Cada pronostico se corresponde con una ronda

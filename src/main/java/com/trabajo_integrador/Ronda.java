@@ -1,21 +1,33 @@
 package com.trabajo_integrador;
 
-import java.nio.file.Files;
+/*import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.io.IOException;
+import java.io.IOException;*/
 
 public class Ronda {
-   public String numero;
+   public int nroRonda;
+   public int nroPartidos;
    public Partido[] partido;
-   public int cantidadPartidos;
 
-   public Ronda(String archivoResultados){
+   public Ronda(int nroRonda, InterfaceResultados resultados){
+      this.nroRonda = nroRonda;
+      nroPartidos = resultados.partidos;
+      partido = new Partido[nroPartidos];
+
+      int p = 0;
+      for(String[] partidoDeResultado: resultados.rondaPartido){
+         if(nroRonda == Integer.parseInt(partidoDeResultado[0])){
+            partido[p] = new Partido(partidoDeResultado);
+            p++;
+         }
+      }
+
       // Abre el archivo resultados.csv y obtiene todas las lineas
       // la cantidad de lineas es la cantidad de partidos
       // Segun el numero de partidos, genera el arreglo partidos y pasa la info de cada partido
-      numero = "1";
-      cantidadPartidos = misFunciones.contarPartidos(archivoResultados);
-      partido = new Partido[cantidadPartidos];
+      /*
+      nroPartidos = misFunciones.contarPartidos(archivoResultados);
+      partido = new Partido[nroPartidos];
       int i = 0;
       try {
          for (String linea : Files.readAllLines(Paths.get(archivoResultados)))
@@ -29,10 +41,10 @@ public class Ronda {
       } catch (ArrayIndexOutOfBoundsException e) {
          System.err.println("Error: " + e.getMessage());
          System.err.println("i es: "+ i);
-      }
+      }*/
    }
 
-   public Resultado resultado(int partido, int equipo) {
+   public Resultado resultado(int partido, String equipo) {
       return this.partido[partido].resultado(equipo);
    }
 }

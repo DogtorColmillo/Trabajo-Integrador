@@ -19,7 +19,7 @@ class PronosticoDeportivo {
 
       //Ver los puntos
       int puntos=0;
-      for(int i=0; i<ronda.cantidadPartidos;i++){
+      for(int i=0; i<ronda.nroPartidos;i++){
          //si ronda.resultado(1,1) == pronostico.resultado(), entonces puntos++
          if(ronda.resultado(i, 1)==pronostico.resultadoEquipo1(i)){
             puntos++;

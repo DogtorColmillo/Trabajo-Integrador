@@ -25,3 +25,10 @@ Pedro;Argentina;ganador;perdedor;Arabia Saudita
 Pedro;Polonia;perdedor;ganador;Mexico
 Pedro;Argentina;ganador;perdedor;Mexico
 Pedro;Arabia Saudita;empate;empate;Polonia
+
+Notas del desarrollador:
+- Los ejemplos son solo eso, ejemplos, el archivo de resultados final deberia tener mas rondas.
+- Para los pronosticos falta agregar la ronda, no solo el nombre del apostador.
+- Hace falta una clase interface que cargue los datos en las clases ronda[]->partido[], 
+  que a futuro pueda ser modificada para que la fuente de datos no solo sea un archivo, sino tambien una BD.
+- Hace falta una clase interface que cargue los datos en las clases pronostico[]

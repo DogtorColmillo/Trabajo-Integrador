@@ -45,6 +45,9 @@ public class Ronda {
    }
 
    public Resultado resultado(int partido, String equipo) {
+      /*
+       * Dado un nroPartido y un nombreEquipo, devuelve el resultado para ese equipo en ese partido, dentro de la ronda.
+       */
       return this.partido[partido].resultado(equipo);
    }
 }

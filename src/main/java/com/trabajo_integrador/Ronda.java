@@ -1,53 +1,49 @@
 package com.trabajo_integrador;
 
-/*import java.nio.file.Files;
+import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.io.IOException;*/
+import java.io.IOException;
 
 public class Ronda {
-   public int nroRonda;
-   public int nroPartidos;
-   public Partido[] partido;
+   public String nombre;
+   public Partido partido[];
+   
+   public Ronda(String ronda, String pathArchivo){
+      nombre = ronda;
 
-   public Ronda(int nroRonda, InterfaceResultados resultados){
-      this.nroRonda = nroRonda;
-      nroPartidos = resultados.partidos;
-      partido = new Partido[nroPartidos];
+      partido = new Partido[contarPartidos(ronda,pathArchivo)];
 
-      int p = 0;
-      for(String[] partidoDeResultado: resultados.rondaPartido){
-         if(nroRonda == Integer.parseInt(partidoDeResultado[0])){
-            partido[p] = new Partido(partidoDeResultado);
-            p++;
-         }
-      }
-
-      // Abre el archivo resultados.csv y obtiene todas las lineas
-      // la cantidad de lineas es la cantidad de partidos
-      // Segun el numero de partidos, genera el arreglo partidos y pasa la info de cada partido
-      /*
-      nroPartidos = misFunciones.contarPartidos(archivoResultados);
-      partido = new Partido[nroPartidos];
-      int i = 0;
+      int prt=0;
       try {
-         for (String linea : Files.readAllLines(Paths.get(archivoResultados)))
-            if (!linea.trim().isEmpty()){
-               partido[i]= new Partido(linea.split(";"));
-               //Recibe de resultado algo como: partido[0]=["Argentina","2","1","Arabia Saudita"]
-               i++;
+         // Cuento las lineas del archivo que empiezan con
+         // el nombre de la ronda dado.
+         for(String linea : Files.readAllLines(Paths.get(pathArchivo))){
+            if(ronda.equals(linea.split(";")[0])){
+               partido[prt] = new Partido(linea.split(";")[2],Integer.parseInt(linea.split(";")[3]), Integer.parseInt(linea.split(";")[4]), linea.split(";")[5]);
+               prt++;
             }
+               
+         }
       } catch (IOException e) {
-         System.err.println("Error al leer el archivo: " + e.getMessage());
-      } catch (ArrayIndexOutOfBoundsException e) {
-         System.err.println("Error: " + e.getMessage());
-         System.err.println("i es: "+ i);
-      }*/
+         System.err.println("Error con el archivo: " + pathArchivo + ". Exception: " + e.toString());
+      }
    }
 
-   public Resultado resultado(int partido, String equipo) {
-      /*
-       * Dado un nroPartido y un nombreEquipo, devuelve el resultado para ese equipo en ese partido, dentro de la ronda.
-       */
-      return this.partido[partido].resultado(equipo);
+   private int contarPartidos(String ronda, String pathArchivo){
+      int prt = 0;
+      try {
+         // Cuento las lineas del archivo que empiezan con
+         // el nombre de la ronda dado.
+         
+         for(String linea : Files.readAllLines(Paths.get(pathArchivo))){
+            if(ronda.equals(linea.split(";")[0])){
+               prt++;
+            }
+               
+         }
+      } catch (IOException e) {
+         System.err.println("Error con el archivo: " + pathArchivo + ". Exception: " + e.toString());
+      }
+      return prt;
    }
 }

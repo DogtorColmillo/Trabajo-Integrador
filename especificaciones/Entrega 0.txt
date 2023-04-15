@@ -18,3 +18,7 @@ Entrega 1 - Clase 9
 Entrega 2 - Clase 14
 Entrega 3 - Clase 17
 Presentación Final - Clase 18
+
+Resumen:
+- El objetivo es que a partir del conjunto de resultados de varios partidos, puntuar los pronosticos sobre esos resultados para varios participantes y dar el nombre de la persona ganadora.
+- Mostrar en forma ordenada (descendente) los puntajes de las personas.

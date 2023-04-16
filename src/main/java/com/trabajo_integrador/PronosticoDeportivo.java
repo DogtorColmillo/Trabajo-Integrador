@@ -45,6 +45,8 @@ public class PronosticoDeportivo {
                   
 
       System.out.println("Gracias por participar!");
+      System.out.println();
+      System.out.println();
    }
 
    private static String[] personas(String pathArchivo){

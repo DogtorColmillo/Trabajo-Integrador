@@ -6,10 +6,27 @@
    "configurations": [
       {
          "type": "java",
+         "name": "TestSQL",
+         "request": "launch",
+         "mainClass": "com.trabajo_integrador.TestSQL",
+         "projectName": "trabajo_integrador"
+      },
+      {
+         "type": "java",
+         "name": "BD",
+         "request": "launch",
+         "mainClass": "com.trabajo_integrador.BD",
+         "projectName": "trabajo_integrador"
+      },
+      {
+         "type": "java",
          "name": "Current File",
          "request": "launch",
          "mainClass": "${file}",
-         "args": ["csv/pronosticos.csv","csv/resultados.csv"]
+         "args": [
+            "csv/pronosticos.csv",
+            "csv/resultados.csv"
+         ]
       },
       {
          "type": "java",
@@ -17,7 +34,10 @@
          "request": "launch",
          "mainClass": "com.trabajo_integrador.PronosticoDeportivo",
          "projectName": "trabajo_integrador",
-         "args": ["csv/pronosticos.csv","csv/resultados.csv"]
+         "args": [
+            "csv/pronosticos.csv",
+            "csv/resultados.csv"
+         ]
       }
    ]
 }

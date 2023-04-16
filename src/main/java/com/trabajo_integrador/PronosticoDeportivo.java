@@ -37,9 +37,9 @@ public class PronosticoDeportivo {
       for(int rnd = 0; rnd<ronda.length; rnd++)
          ronda[rnd] = new Ronda(nombresRonda[rnd], archivoResultados);
       
-      //Test Ronda OK
+      // Resultado del programa OK
       for(int per = 0; per<persona.length; per++){
-         System.out.println(persona[per].nombre + ": Puntos " + persona[per].puntos(ronda));
+         System.out.println(persona[per].nombre + ": " + persona[per].puntos(ronda));
       }
                
                   

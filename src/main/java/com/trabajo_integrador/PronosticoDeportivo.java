@@ -38,30 +38,10 @@ public class PronosticoDeportivo {
          ronda[rnd] = new Ronda(nombresRonda[rnd], archivoResultados);
       
       //Test Ronda OK
-      //for(int rnd = 0; rnd<ronda.length; rnd++)
-      //   for(int prt = 0; prt<ronda[rnd].partido.length; prt++)
-      //      System.out.println(ronda[rnd].partido[prt].equipo1 + " = " + ronda[rnd].partido[prt].golesEquipo1 + " vs " + ronda[rnd].partido[prt].golesEquipo2 + " = " + ronda[rnd].partido[prt].equipo2);
-
-      // TODO
-      // Esto lo debe hacer persona
-         try{
-            for(int per = 0; per<persona.length; per++){
-               for(int rnd = 0; rnd<ronda.length; rnd++){
-                  System.out.println(persona[per].nombre + ": Ronda: " + ronda[rnd].nombre);
-                  for(int pr = 0; pr<persona[per].pronostico.length; pr++){
-                     System.out.println("   " + persona[per].pronostico[pr].equipo + ", " +
-                                       persona[per].pronostico[pr].resultado);
-                     System.out.println("   Partido: " + ronda[rnd].partido[pr].equipo1 + " = " + ronda[rnd].partido[pr].golesEquipo1 + " vs " + ronda[rnd].partido[pr].golesEquipo2 + " = " + ronda[rnd].partido[pr].equipo2);
-                     if(persona[per].pronostico[pr].resultado == ronda[rnd].partido[pr].resultado(persona[per].pronostico[pr].equipo))
-                        System.out.println("   " + persona[per].nombre + " gano 1 punto.");
-                  }
-               }
-            }
-
-         }catch(Exception e){
-            System.out.println("Error al comparar los pronosticos con los resultado. Error: " + e.toString());
-            System.out.println("Es posible que el numero de pronosticos no coincida con el número de partidos por ronda");
-         }
+      for(int per = 0; per<persona.length; per++){
+         System.out.println(persona[per].nombre + ": Puntos " + persona[per].puntos(ronda));
+      }
+               
                   
 
       System.out.println("Gracias por participar!");

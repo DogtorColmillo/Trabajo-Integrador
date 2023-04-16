@@ -8,7 +8,7 @@ public class PronosticoDeportivo {
    public static void main(String[] args) {
       System.out.println("Bienvenido al Puntaje de Pronosticos Deportivos!");
       // CARGA PRONOSTICOS
-      String archivoPronosticos = "csv/pronosticos.csv";
+      String archivoPronosticos = args[0];
       String[] nombresPersona = personas(archivoPronosticos);
       Persona[] persona = new Persona[nombresPersona.length];
       
@@ -25,7 +25,7 @@ public class PronosticoDeportivo {
 
 
       // CARGA RESULTADOS
-      String archivoResultados = "csv/resultados.csv";
+      String archivoResultados = args[1];
 
       String[] nombresRonda = rondas(archivoResultados);
       // Test nombresRonda OK

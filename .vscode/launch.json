@@ -1,0 +1,23 @@
+{
+   // Use IntelliSense para saber los atributos posibles.
+   // Mantenga el puntero para ver las descripciones de los existentes atributos.
+   // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+   "version": "0.2.0",
+   "configurations": [
+      {
+         "type": "java",
+         "name": "Current File",
+         "request": "launch",
+         "mainClass": "${file}",
+         "args": ["csv/pronosticos.csv","csv/resultados.csv"]
+      },
+      {
+         "type": "java",
+         "name": "PronosticoDeportivo",
+         "request": "launch",
+         "mainClass": "com.trabajo_integrador.PronosticoDeportivo",
+         "projectName": "trabajo_integrador",
+         "args": ["csv/pronosticos.csv","csv/resultados.csv"]
+      }
+   ]
+}

@@ -49,7 +49,8 @@ public class TestSQL {
                rondaActual = rs.getString(1);
                prt=1;
             }
-            System.out.println(rs.getString(1) + ";" + prt + ";" + rs.getString(2)+ ";" + rs.getString(4)+ ";" + rs.getString(5)+ ";" + rs.getString(3));
+            System.out.println(rs.getString(1) + ";" + prt + ";" + rs.getString(2)+ ";" + 
+                               rs.getString(4)+ ";" + rs.getString(5)+ ";" + rs.getString(3));
             prt++;
          }
          //Equivalente a pronosticos.cvs

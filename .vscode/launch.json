@@ -6,6 +6,13 @@
    "configurations": [
       {
          "type": "java",
+         "name": "testTemporal",
+         "request": "launch",
+         "mainClass": "com.trabajo_integrador.testTemporal",
+         "projectName": "trabajo_integrador"
+      },
+      {
+         "type": "java",
          "name": "TestSQL",
          "request": "launch",
          "mainClass": "com.trabajo_integrador.TestSQL",

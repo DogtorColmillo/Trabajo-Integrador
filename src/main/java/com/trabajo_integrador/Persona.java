@@ -45,6 +45,38 @@ public class Persona {
       }
    }
 
+   public Persona(String nombre,ListaPronosticos listaPronostico){
+      this.nombre = nombre;
+      int prn = 0;
+      for (String linea : listaPronostico.pronosticos){
+         String[] parte = linea.split(";");
+         if(nombre.equals(parte[0]))
+            prn++;
+      }
+
+      pronostico = new Pronostico[prn];
+      for(prn = 0; prn<pronostico.length; prn++)
+         pronostico[prn]=new Pronostico();
+
+      prn = 0;
+      for (String linea : listaPronostico.pronosticos){
+         String[] parte = linea.split(";");
+         if(nombre.equals(parte[0])){
+            pronostico[prn].fase = parte[1];
+            pronostico[prn].ronda = parte[2];
+            pronostico[prn].partido = Integer.parseInt(parte[3]);
+            pronostico[prn].equipo = parte[4];
+            if(parte[5].equals("1"))
+               pronostico[prn].resultado = Resultado.valueOf("ganador");
+            else if(parte[5].equals("2"))
+               pronostico[prn].resultado = Resultado.valueOf("perdedor");
+            else
+               pronostico[prn].resultado = Resultado.valueOf("empate");
+            prn++;
+         }
+      }
+   }
+
    public int puntos(Fase[] fase){
       // TODO
       // ronda.length = 12

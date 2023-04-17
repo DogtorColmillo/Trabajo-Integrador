@@ -16,7 +16,7 @@
          "name": "Current File",
          "request": "launch",
          "mainClass": "${file}",
-         "args": ["csv/resultados.csv","jdbc:mysql://sql10.freemysqlhosting.net:3306/sql10612293;sql10612293;ACwUKDKvbY"]
+         "args": ["csv/resultados.csv","csv/pronosticos.csv"]
       },
       {
          "type": "java",
@@ -24,7 +24,7 @@
          "request": "launch",
          "mainClass": "com.trabajo_integrador.PronosticoDeportivo",
          "projectName": "trabajo_integrador",
-         "args": ["csv/resultados.csv","jdbc:mysql://sql10.freemysqlhosting.net:3306/sql10612293;sql10612293;ACwUKDKvbY"]
+         "args": ["csv/resultados.csv","csv/pronosticos.csv"]
       }
    ]
 }

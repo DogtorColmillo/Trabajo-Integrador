@@ -1,0 +1,3 @@
+El archivo pronosticos-extra.csv tiene modificado los pronosticos para que Juan acierte todo en la fase final, ganando puntos extra (para verificar las reglas de puntos extra):
+Originalmente acerto 16, en octavos suma 5 puntos por partido +1 extra por ronda completa, en cuartos suma 4 +1 extra, en semis suma 2 +1 extra, en final suma 1 +1 extra.
+Total 16+6+5+3+2=32 puntos en total.

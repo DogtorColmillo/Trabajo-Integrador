@@ -27,19 +27,19 @@ public class PronosticoDeportivo {
       // CARGA RESULTADOS
       String archivoResultados = args[1];
 
-      String[] nombresRonda = rondas(archivoResultados);
+      String[] nombresFase = fases(archivoResultados);
       // Test nombresRonda OK
       //for(int rnd=0; rnd<nombresRonda.length; rnd++)
       //   System.out.println((rnd+1) + " - " + nombresRonda[rnd]);
 
 
-      Ronda[] ronda = new Ronda[nombresRonda.length];
-      for(int rnd = 0; rnd<ronda.length; rnd++)
-         ronda[rnd] = new Ronda(nombresRonda[rnd], archivoResultados);
+      Fase[] fase = new Fase[nombresFase.length];
+      for(int fs = 0; fs<fase.length; fs++)
+         fase[fs] = new Fase(nombresFase[fs], archivoResultados);
       
       // Resultado del programa OK
       for(int per = 0; per<persona.length; per++){
-         System.out.println(persona[per].nombre + ": " + persona[per].puntos(ronda));
+         System.out.println(persona[per].nombre + ": " + persona[per].puntos(fase));
       }
                
                   
@@ -83,37 +83,37 @@ public class PronosticoDeportivo {
       return nombresPersona;
    }
 
-   private static String[] rondas(String pathArchivo){
-      String[] nombresRonda = null;
+   private static String[] fases(String pathArchivo){
+      String[] nombresFase = null;
       try {
          // Primero, tomo el nombre de la primera ronda
          // y cuento cada vez que cambia, actualizando el 
          // nombreRondActual e incrementando el contador
-         String nombreRondaActual = Files.readAllLines(Paths.get(pathArchivo)).get(0).split(";")[0];
+         String nombreFaseActual = Files.readAllLines(Paths.get(pathArchivo)).get(0).split(";")[0];
          int rnd = 1;
          for(String linea : Files.readAllLines(Paths.get(pathArchivo))){
-            if(!nombreRondaActual.equals(linea.split(";")[0])){
-               nombreRondaActual = linea.split(";")[0];
+            if(!nombreFaseActual.equals(linea.split(";")[0])){
+               nombreFaseActual = linea.split(";")[0];
                rnd++;
             }
                
          }
 
          // Genero el arreglo de nombres
-         nombresRonda = new String[rnd];
+         nombresFase = new String[rnd];
 
          // tercero, cada vez que cambia el nombrem, lo guardo y avanzo en el arreglo
-         nombresRonda[0] = Files.readAllLines(Paths.get(pathArchivo)).get(0).split(";")[0];
+         nombresFase[0] = Files.readAllLines(Paths.get(pathArchivo)).get(0).split(";")[0];
          rnd = 1;
          for(String linea : Files.readAllLines(Paths.get(pathArchivo))){
-            if(!nombresRonda[rnd-1].equals(linea.split(";")[0])){
-               nombresRonda[rnd] = linea.split(";")[0];
+            if(!nombresFase[rnd-1].equals(linea.split(";")[0])){
+               nombresFase[rnd] = linea.split(";")[0];
                rnd++;
             }
          }
       } catch (IOException e) {
          System.err.println("Error con el archivo: " + pathArchivo + ". Exception: " + e.toString());
       }
-      return nombresRonda;
+      return nombresFase;
    }
 }

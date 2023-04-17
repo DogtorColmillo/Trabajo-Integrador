@@ -27,8 +27,8 @@ public class TestSQL {
          //query = "SELECT ID_PRONOSTICO, NOMBRE, ID_RESULTADO, GANADOR FROM PRONOSTICOS";
          //query = "SHOW COLUMNS FROM RESULTADOS"; // ID_RESULTADO, FASE, RONDA, ID_EQUIPO_1, ID_EQUIPO_2, GOLES_1, GOLES_2
          //Equivalente a resultados.cvs con fase
-         //query = "SELECT FASE, RONDA, E1.EQUIPO AS EQUIPO_1, E2.EQUIPO AS EQUIPO_2, GOLES_1, GOLES_2 FROM RESULTADOS R JOIN EQUIPOS E1 on R.ID_EQUIPO_1 = E1.ID_EQUIPO JOIN EQUIPOS E2 on R.ID_EQUIPO_2 = E2.ID_EQUIPO";
-         /*ResultSet rs = stmt.executeQuery(query);
+         /* query = "SELECT FASE, RONDA, E1.EQUIPO AS EQUIPO_1, E2.EQUIPO AS EQUIPO_2, GOLES_1, GOLES_2 FROM RESULTADOS R JOIN EQUIPOS E1 on R.ID_EQUIPO_1 = E1.ID_EQUIPO JOIN EQUIPOS E2 on R.ID_EQUIPO_2 = E2.ID_EQUIPO";
+         ResultSet rs = stmt.executeQuery(query);
          String rondaActual = "";
          int prt = 1;
          while(rs.next()){
@@ -40,7 +40,7 @@ public class TestSQL {
             prt++;
          } */
          //Equivalente a resultados.cvs sin fase
-         query = "SELECT RONDA, E1.EQUIPO AS EQUIPO_1, E2.EQUIPO AS EQUIPO_2, GOLES_1, GOLES_2 FROM RESULTADOS R JOIN EQUIPOS E1 on R.ID_EQUIPO_1 = E1.ID_EQUIPO JOIN EQUIPOS E2 on R.ID_EQUIPO_2 = E2.ID_EQUIPO";
+         /* query = "SELECT RONDA, E1.EQUIPO AS EQUIPO_1, E2.EQUIPO AS EQUIPO_2, GOLES_1, GOLES_2 FROM RESULTADOS R JOIN EQUIPOS E1 on R.ID_EQUIPO_1 = E1.ID_EQUIPO JOIN EQUIPOS E2 on R.ID_EQUIPO_2 = E2.ID_EQUIPO";
          ResultSet rs = stmt.executeQuery(query);
          String rondaActual = "";
          int prt = 1;
@@ -52,10 +52,10 @@ public class TestSQL {
             System.out.println(rs.getString(1) + ";" + prt + ";" + rs.getString(2)+ ";" + 
                                rs.getString(4)+ ";" + rs.getString(5)+ ";" + rs.getString(3));
             prt++;
-         }
+         } */
          //Equivalente a pronosticos.cvs
-        //query = "SELECT NOMBRE, FASE, RONDA, E1.EQUIPO AS EQUIPO_1, E2.EQUIPO AS EQUIPO_2, GANADOR FROM PRONOSTICOS P JOIN RESULTADOS R on P.ID_RESULTADO = R.ID_RESULTADO JOIN EQUIPOS E1 on R.ID_EQUIPO_1 = E1.ID_EQUIPO JOIN EQUIPOS E2 on R.ID_EQUIPO_2 = E2.ID_EQUIPO";
-         /* ResultSet rs = stmt.executeQuery(query);
+         query = "SELECT NOMBRE, FASE, RONDA, E1.EQUIPO AS EQUIPO_1, E2.EQUIPO AS EQUIPO_2, GANADOR FROM PRONOSTICOS P JOIN RESULTADOS R on P.ID_RESULTADO = R.ID_RESULTADO JOIN EQUIPOS E1 on R.ID_EQUIPO_1 = E1.ID_EQUIPO JOIN EQUIPOS E2 on R.ID_EQUIPO_2 = E2.ID_EQUIPO";
+         ResultSet rs = stmt.executeQuery(query);
          String rondaActual = "";
          int prt = 1;
          while(rs.next()){
@@ -66,7 +66,7 @@ public class TestSQL {
 
             System.out.println(rs.getString(1) + ";" + rs.getString(2)+ ";" + rs.getString(3)+ ";" + prt + ";" + rs.getString(5)+ ";" + rs.getString(6)+ ";" + rs.getString(4));
             prt++;
-         } */
+         }
          // Cerrar conexión a la BD:
          con.close();
 

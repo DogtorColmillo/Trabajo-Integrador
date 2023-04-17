@@ -1,0 +1,256 @@
+Mariana;Inicial;Grupo A;1;Ecuador;1;Qatar
+Mariana;Inicial;Grupo A;2;Países Bajos;1;Senegal
+Mariana;Inicial;Grupo A;3;Senegal;0;Qatar
+Mariana;Inicial;Grupo A;4;Ecuador;1;Países Bajos
+Mariana;Inicial;Grupo A;5;Qatar;1;Países Bajos
+Mariana;Inicial;Grupo A;6;Senegal;2;Ecuador
+Mariana;Inicial;Grupo B;1;Irán;2;Inglaterra
+Mariana;Inicial;Grupo B;2;Gales;0;EE.UU.
+Mariana;Inicial;Grupo B;3;Gales;0;Irán
+Mariana;Inicial;Grupo B;4;EE.UU.;2;Inglaterra
+Mariana;Inicial;Grupo B;5;Inglaterra;1;Gales
+Mariana;Inicial;Grupo B;6;EE.UU.;2;Irán
+Mariana;Inicial;Grupo C;1;Arabia Saudita;2;Argentina
+Mariana;Inicial;Grupo C;2;Polonia;1;México
+Mariana;Inicial;Grupo C;3;Polonia;1;Arabia Saudita
+Mariana;Inicial;Grupo C;4;México;1;Argentina
+Mariana;Inicial;Grupo C;5;Argentina;1;Polonia
+Mariana;Inicial;Grupo C;6;México;0;Arabia Saudita
+Mariana;Inicial;Grupo D;1;Túnez;2;Francia
+Mariana;Inicial;Grupo D;2;Australia;2;Dinamarca
+Mariana;Inicial;Grupo D;3;Australia;1;Túnez
+Mariana;Inicial;Grupo D;4;Francia;1;Dinamarca
+Mariana;Inicial;Grupo D;5;Dinamarca;1;Túnez
+Mariana;Inicial;Grupo D;6;Francia;1;Australia
+Mariana;Inicial;Grupo E;1;Japón;0;Alemania
+Mariana;Inicial;Grupo E;2;Costa Rica;2;España
+Mariana;Inicial;Grupo E;3;Costa Rica;2;Japón
+Mariana;Inicial;Grupo E;4;Alemania;1;España
+Mariana;Inicial;Grupo E;5;España;1;Japón
+Mariana;Inicial;Grupo E;6;Alemania;2;Costa Rica
+Mariana;Inicial;Grupo F;1;Croacia;2;Marruecos
+Mariana;Inicial;Grupo F;2;Canadá;0;Bélgica
+Mariana;Inicial;Grupo F;3;Marruecos;2;Bélgica
+Mariana;Inicial;Grupo F;4;Canadá;2;Croacia
+Mariana;Inicial;Grupo F;5;Bélgica;1;Croacia
+Mariana;Inicial;Grupo F;6;Marruecos;1;Canadá
+Mariana;Inicial;Grupo G;1;Camerún;0;Suiza
+Mariana;Inicial;Grupo G;2;Serbia;2;Brasil
+Mariana;Inicial;Grupo G;3;Suiza;1;Brasil
+Mariana;Inicial;Grupo G;4;Serbia;1;Camerún
+Mariana;Inicial;Grupo G;5;Brasil;2;Camerún
+Mariana;Inicial;Grupo G;6;Suiza;1;Serbia
+Mariana;Inicial;Grupo H;1;Corea del Sur;2;Uruguay
+Mariana;Inicial;Grupo H;2;Ghana;0;Portugal
+Mariana;Inicial;Grupo H;3;Ghana;0;Corea del Sur
+Mariana;Inicial;Grupo H;4;Uruguay;1;Portugal
+Mariana;Inicial;Grupo H;5;Portugal;1;Corea del Sur
+Mariana;Inicial;Grupo H;6;Uruguay;1;Ghana
+Mariana;Final;Octavos;1;EE.UU.;0;Países Bajos
+Mariana;Final;Octavos;2;Australia;2;Argentina
+Mariana;Final;Octavos;3;Croacia;1;Japón
+Mariana;Final;Octavos;4;Corea del Sur;1;Brasil
+Mariana;Final;Octavos;5;Polonia;1;Francia
+Mariana;Final;Octavos;6;Senegal;0;Inglaterra
+Mariana;Final;Octavos;7;España;2;Marruecos
+Mariana;Final;Octavos;8;Suiza;1;Portugal
+Mariana;Final;Cuartos;1;Países Bajos;2;Argentina
+Mariana;Final;Cuartos;2;Brasil;1;Croacia
+Mariana;Final;Cuartos;3;Francia;1;Inglaterra
+Mariana;Final;Cuartos;4;Portugal;2;Marruecos
+Mariana;Final;Semis;1;Croacia;0;Argentina
+Mariana;Final;Semis;2;Marruecos;1;Francia
+Mariana;Final;Final;1;Francia;1;Argentina
+Mariana;Final;Final;2;Marruecos;2;Croacia
+Pedro;Inicial;Grupo A;1;Ecuador;1;Qatar
+Pedro;Inicial;Grupo A;2;Países Bajos;0;Senegal
+Pedro;Inicial;Grupo A;3;Senegal;2;Qatar
+Pedro;Inicial;Grupo A;4;Ecuador;1;Países Bajos
+Pedro;Inicial;Grupo A;5;Qatar;2;Países Bajos
+Pedro;Inicial;Grupo A;6;Senegal;1;Ecuador
+Pedro;Inicial;Grupo B;1;Irán;1;Inglaterra
+Pedro;Inicial;Grupo B;2;Gales;2;EE.UU.
+Pedro;Inicial;Grupo B;3;Gales;0;Irán
+Pedro;Inicial;Grupo B;4;EE.UU.;1;Inglaterra
+Pedro;Inicial;Grupo B;5;Inglaterra;1;Gales
+Pedro;Inicial;Grupo B;6;EE.UU.;2;Irán
+Pedro;Inicial;Grupo C;1;Arabia Saudita;0;Argentina
+Pedro;Inicial;Grupo C;2;Polonia;1;México
+Pedro;Inicial;Grupo C;3;Polonia;2;Arabia Saudita
+Pedro;Inicial;Grupo C;4;México;0;Argentina
+Pedro;Inicial;Grupo C;5;Argentina;0;Polonia
+Pedro;Inicial;Grupo C;6;México;1;Arabia Saudita
+Pedro;Inicial;Grupo D;1;Túnez;1;Francia
+Pedro;Inicial;Grupo D;2;Australia;1;Dinamarca
+Pedro;Inicial;Grupo D;3;Australia;2;Túnez
+Pedro;Inicial;Grupo D;4;Francia;1;Dinamarca
+Pedro;Inicial;Grupo D;5;Dinamarca;1;Túnez
+Pedro;Inicial;Grupo D;6;Francia;2;Australia
+Pedro;Inicial;Grupo E;1;Japón;1;Alemania
+Pedro;Inicial;Grupo E;2;Costa Rica;1;España
+Pedro;Inicial;Grupo E;3;Costa Rica;2;Japón
+Pedro;Inicial;Grupo E;4;Alemania;1;España
+Pedro;Inicial;Grupo E;5;España;2;Japón
+Pedro;Inicial;Grupo E;6;Alemania;0;Costa Rica
+Pedro;Inicial;Grupo F;1;Croacia;0;Marruecos
+Pedro;Inicial;Grupo F;2;Canadá;1;Bélgica
+Pedro;Inicial;Grupo F;3;Marruecos;2;Bélgica
+Pedro;Inicial;Grupo F;4;Canadá;1;Croacia
+Pedro;Inicial;Grupo F;5;Bélgica;1;Croacia
+Pedro;Inicial;Grupo F;6;Marruecos;2;Canadá
+Pedro;Inicial;Grupo G;1;Camerún;2;Suiza
+Pedro;Inicial;Grupo G;2;Serbia;0;Brasil
+Pedro;Inicial;Grupo G;3;Suiza;0;Brasil
+Pedro;Inicial;Grupo G;4;Serbia;1;Camerún
+Pedro;Inicial;Grupo G;5;Brasil;2;Camerún
+Pedro;Inicial;Grupo G;6;Suiza;2;Serbia
+Pedro;Inicial;Grupo H;1;Corea del Sur;0;Uruguay
+Pedro;Inicial;Grupo H;2;Ghana;1;Portugal
+Pedro;Inicial;Grupo H;3;Ghana;1;Corea del Sur
+Pedro;Inicial;Grupo H;4;Uruguay;2;Portugal
+Pedro;Inicial;Grupo H;5;Portugal;1;Corea del Sur
+Pedro;Inicial;Grupo H;6;Uruguay;1;Ghana
+Pedro;Final;Octavos;1;EE.UU.;2;Países Bajos
+Pedro;Final;Octavos;2;Australia;0;Argentina
+Pedro;Final;Octavos;3;Croacia;1;Japón
+Pedro;Final;Octavos;4;Corea del Sur;1;Brasil
+Pedro;Final;Octavos;5;Polonia;2;Francia
+Pedro;Final;Octavos;6;Senegal;2;Inglaterra
+Pedro;Final;Octavos;7;España;0;Marruecos
+Pedro;Final;Octavos;8;Suiza;0;Portugal
+Pedro;Final;Cuartos;1;Países Bajos;1;Argentina
+Pedro;Final;Cuartos;2;Brasil;0;Croacia
+Pedro;Final;Cuartos;3;Francia;1;Inglaterra
+Pedro;Final;Cuartos;4;Portugal;1;Marruecos
+Pedro;Final;Semis;1;Croacia;2;Argentina
+Pedro;Final;Semis;2;Marruecos;0;Francia
+Pedro;Final;Final;1;Francia;2;Argentina
+Pedro;Final;Final;2;Marruecos;1;Croacia
+Juan;Inicial;Grupo A;1;Ecuador;2;Qatar
+Juan;Inicial;Grupo A;2;Países Bajos;1;Senegal
+Juan;Inicial;Grupo A;3;Senegal;2;Qatar
+Juan;Inicial;Grupo A;4;Ecuador;1;Países Bajos
+Juan;Inicial;Grupo A;5;Qatar;0;Países Bajos
+Juan;Inicial;Grupo A;6;Senegal;2;Ecuador
+Juan;Inicial;Grupo B;1;Irán;0;Inglaterra
+Juan;Inicial;Grupo B;2;Gales;0;EE.UU.
+Juan;Inicial;Grupo B;3;Gales;1;Irán
+Juan;Inicial;Grupo B;4;EE.UU.;1;Inglaterra
+Juan;Inicial;Grupo B;5;Inglaterra;2;Gales
+Juan;Inicial;Grupo B;6;EE.UU.;1;Irán
+Juan;Inicial;Grupo C;1;Arabia Saudita;2;Argentina
+Juan;Inicial;Grupo C;2;Polonia;2;México
+Juan;Inicial;Grupo C;3;Polonia;1;Arabia Saudita
+Juan;Inicial;Grupo C;4;México;0;Argentina
+Juan;Inicial;Grupo C;5;Argentina;0;Polonia
+Juan;Inicial;Grupo C;6;México;2;Arabia Saudita
+Juan;Inicial;Grupo D;1;Túnez;1;Francia
+Juan;Inicial;Grupo D;2;Australia;1;Dinamarca
+Juan;Inicial;Grupo D;3;Australia;2;Túnez
+Juan;Inicial;Grupo D;4;Francia;0;Dinamarca
+Juan;Inicial;Grupo D;5;Dinamarca;1;Túnez
+Juan;Inicial;Grupo D;6;Francia;1;Australia
+Juan;Inicial;Grupo E;1;Japón;2;Alemania
+Juan;Inicial;Grupo E;2;Costa Rica;0;España
+Juan;Inicial;Grupo E;3;Costa Rica;1;Japón
+Juan;Inicial;Grupo E;4;Alemania;2;España
+Juan;Inicial;Grupo E;5;España;0;Japón
+Juan;Inicial;Grupo E;6;Alemania;1;Costa Rica
+Juan;Inicial;Grupo F;1;Croacia;0;Marruecos
+Juan;Inicial;Grupo F;2;Canadá;2;Bélgica
+Juan;Inicial;Grupo F;3;Marruecos;0;Bélgica
+Juan;Inicial;Grupo F;4;Canadá;1;Croacia
+Juan;Inicial;Grupo F;5;Bélgica;2;Croacia
+Juan;Inicial;Grupo F;6;Marruecos;2;Canadá
+Juan;Inicial;Grupo G;1;Camerún;1;Suiza
+Juan;Inicial;Grupo G;2;Serbia;0;Brasil
+Juan;Inicial;Grupo G;3;Suiza;2;Brasil
+Juan;Inicial;Grupo G;4;Serbia;1;Camerún
+Juan;Inicial;Grupo G;5;Brasil;2;Camerún
+Juan;Inicial;Grupo G;6;Suiza;0;Serbia
+Juan;Inicial;Grupo H;1;Corea del Sur;1;Uruguay
+Juan;Inicial;Grupo H;2;Ghana;2;Portugal
+Juan;Inicial;Grupo H;3;Ghana;0;Corea del Sur
+Juan;Inicial;Grupo H;4;Uruguay;1;Portugal
+Juan;Inicial;Grupo H;5;Portugal;1;Corea del Sur
+Juan;Inicial;Grupo H;6;Uruguay;1;Ghana
+Juan;Final;Octavos;1;EE.UU.;2;Países Bajos
+Juan;Final;Octavos;2;Australia;2;Argentina
+Juan;Final;Octavos;3;Croacia;0;Japón
+Juan;Final;Octavos;4;Corea del Sur;2;Brasil
+Juan;Final;Octavos;5;Polonia;2;Francia
+Juan;Final;Octavos;6;Senegal;2;Inglaterra
+Juan;Final;Octavos;7;España;0;Marruecos
+Juan;Final;Octavos;8;Suiza;2;Portugal
+Juan;Final;Cuartos;1;Países Bajos;0;Argentina
+Juan;Final;Cuartos;2;Brasil;0;Croacia
+Juan;Final;Cuartos;3;Francia;1;Inglaterra
+Juan;Final;Cuartos;4;Portugal;2;Marruecos
+Juan;Final;Semis;1;Croacia;2;Argentina
+Juan;Final;Semis;2;Marruecos;2;Francia
+Juan;Final;Final;1;Francia;0;Argentina
+Juan;Final;Final;2;Marruecos;2;Croacia
+Sofía;Inicial;Grupo A;1;Ecuador;0;Qatar
+Sofía;Inicial;Grupo A;2;Países Bajos;2;Senegal
+Sofía;Inicial;Grupo A;3;Senegal;1;Qatar
+Sofía;Inicial;Grupo A;4;Ecuador;2;Países Bajos
+Sofía;Inicial;Grupo A;5;Qatar;0;Países Bajos
+Sofía;Inicial;Grupo A;6;Senegal;1;Ecuador
+Sofía;Inicial;Grupo B;1;Irán;2;Inglaterra
+Sofía;Inicial;Grupo B;2;Gales;0;EE.UU.
+Sofía;Inicial;Grupo B;3;Gales;1;Irán
+Sofía;Inicial;Grupo B;4;EE.UU.;2;Inglaterra
+Sofía;Inicial;Grupo B;5;Inglaterra;0;Gales
+Sofía;Inicial;Grupo B;6;EE.UU.;1;Irán
+Sofía;Inicial;Grupo C;1;Arabia Saudita;2;Argentina
+Sofía;Inicial;Grupo C;2;Polonia;0;México
+Sofía;Inicial;Grupo C;3;Polonia;1;Arabia Saudita
+Sofía;Inicial;Grupo C;4;México;1;Argentina
+Sofía;Inicial;Grupo C;5;Argentina;2;Polonia
+Sofía;Inicial;Grupo C;6;México;0;Arabia Saudita
+Sofía;Inicial;Grupo D;1;Túnez;1;Francia
+Sofía;Inicial;Grupo D;2;Australia;0;Dinamarca
+Sofía;Inicial;Grupo D;3;Australia;2;Túnez
+Sofía;Inicial;Grupo D;4;Francia;2;Dinamarca
+Sofía;Inicial;Grupo D;5;Dinamarca;0;Túnez
+Sofía;Inicial;Grupo D;6;Francia;2;Australia
+Sofía;Inicial;Grupo E;1;Japón;1;Alemania
+Sofía;Inicial;Grupo E;2;Costa Rica;2;España
+Sofía;Inicial;Grupo E;3;Costa Rica;0;Japón
+Sofía;Inicial;Grupo E;4;Alemania;1;España
+Sofía;Inicial;Grupo E;5;España;0;Japón
+Sofía;Inicial;Grupo E;6;Alemania;2;Costa Rica
+Sofía;Inicial;Grupo F;1;Croacia;1;Marruecos
+Sofía;Inicial;Grupo F;2;Canadá;0;Bélgica
+Sofía;Inicial;Grupo F;3;Marruecos;2;Bélgica
+Sofía;Inicial;Grupo F;4;Canadá;1;Croacia
+Sofía;Inicial;Grupo F;5;Bélgica;0;Croacia
+Sofía;Inicial;Grupo F;6;Marruecos;2;Canadá
+Sofía;Inicial;Grupo G;1;Camerún;1;Suiza
+Sofía;Inicial;Grupo G;2;Serbia;0;Brasil
+Sofía;Inicial;Grupo G;3;Suiza;2;Brasil
+Sofía;Inicial;Grupo G;4;Serbia;1;Camerún
+Sofía;Inicial;Grupo G;5;Brasil;0;Camerún
+Sofía;Inicial;Grupo G;6;Suiza;0;Serbia
+Sofía;Inicial;Grupo H;1;Corea del Sur;0;Uruguay
+Sofía;Inicial;Grupo H;2;Ghana;2;Portugal
+Sofía;Inicial;Grupo H;3;Ghana;1;Corea del Sur
+Sofía;Inicial;Grupo H;4;Uruguay;0;Portugal
+Sofía;Inicial;Grupo H;5;Portugal;2;Corea del Sur
+Sofía;Inicial;Grupo H;6;Uruguay;1;Ghana
+Sofía;Final;Octavos;1;EE.UU.;0;Países Bajos
+Sofía;Final;Octavos;2;Australia;2;Argentina
+Sofía;Final;Octavos;3;Croacia;1;Japón
+Sofía;Final;Octavos;4;Corea del Sur;0;Brasil
+Sofía;Final;Octavos;5;Polonia;0;Francia
+Sofía;Final;Octavos;6;Senegal;0;Inglaterra
+Sofía;Final;Octavos;7;España;2;Marruecos
+Sofía;Final;Octavos;8;Suiza;1;Portugal
+Sofía;Final;Cuartos;1;Países Bajos;1;Argentina
+Sofía;Final;Cuartos;2;Brasil;2;Croacia
+Sofía;Final;Cuartos;3;Francia;2;Inglaterra
+Sofía;Final;Cuartos;4;Portugal;1;Marruecos
+Sofía;Final;Semis;1;Croacia;2;Argentina
+Sofía;Final;Semis;2;Marruecos;1;Francia
+Sofía;Final;Final;1;Francia;0;Argentina
+Sofía;Final;Final;2;Marruecos;1;Croacia

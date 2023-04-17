@@ -18,8 +18,9 @@ public class Ronda {
          // Cuento las lineas del archivo que empiezan con
          // el nombre de la ronda dado.
          for(String linea : Files.readAllLines(Paths.get(pathArchivo))){
-            if(ronda.equals(linea.split(";")[0])){
-               partido[prt] = new Partido(linea.split(";")[2],Integer.parseInt(linea.split(";")[3]), Integer.parseInt(linea.split(";")[4]), linea.split(";")[5]);
+            if(ronda.equals(linea.split(";")[1])){
+               String[] datosPartido = linea.split(";");
+               partido[prt] = new Partido(datosPartido[3],Integer.parseInt(datosPartido[4]), Integer.parseInt(datosPartido[5]), datosPartido[6]);
                prt++;
             }
                
@@ -36,7 +37,7 @@ public class Ronda {
          // el nombre de la ronda dado.
          
          for(String linea : Files.readAllLines(Paths.get(pathArchivo))){
-            if(ronda.equals(linea.split(";")[0])){
+            if(ronda.equals(linea.split(";")[1])){
                prt++;
             }
                
